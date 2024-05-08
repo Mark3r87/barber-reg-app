@@ -1,0 +1,15 @@
+.barbers-header {
+  text-align: center;
+}
+
+.barbers-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; 
+  align-items: flex-start; 
+}
+
+.barber-card {
+  flex: 0 1 calc(25% - 1em);
+  margin: 0.5em;
+}

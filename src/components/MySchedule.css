@@ -1,0 +1,16 @@
+.rbc-time-content > * + * > * {
+    height: 100px;
+  }
+
+  .rbc-event {
+    font-size: 0.8em;  
+  }
+  .rbc-time-header-content .rbc-time-content .rbc-timeslot-group .rbc-time-slot .rbc-label {
+    display: none;
+  }
+  .rbc-events-container {
+    display: none;
+  }
+  .rbc-current-time-indicator {
+    display: none;
+  }

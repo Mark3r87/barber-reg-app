@@ -1,0 +1,35 @@
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; /* Adjust padding as needed */
+    max-height: 10vh;
+  }
+  
+  .footer {
+    flex: 0 1 auto; /* Do not grow, allow shrink, and base size is automatic */
+    max-height: 20%; /* As you specified in your inline styles */
+  }
+  
+  .main {
+    flex: 1; /* Grow to fill the space, allow shrink, and base size is 0 */
+  }
+  .navigation {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Adjust the gap between links as needed */
+    margin: 0;
+    padding: 0;
+  }
+
+  .navigation li a {
+    text-decoration: none;
+    color: #000; /* Adjust the link color as necessary */
+    /* Additional styles for links if needed */
+  }
